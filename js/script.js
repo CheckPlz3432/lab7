@@ -2,14 +2,11 @@ function init(){
 //add your javascrip between these two lines of code
 
  
+ function myFunction() {
+  alert("I am an alert box!");
+ }
+ div alertme
  
+ eventlistener
  
-Trent Coleman
-tcoleman3@hawk.iit.edu
-
-
-
-
-
-
 window.addEventListener('load', init);

@@ -3,10 +3,9 @@ function init(){
 
  
  function myFunction() {
-  alert("I am an alert box!");
+  center = alert("I am an alert box!");
  }
- div alertme
+  "Trent Coleman" + textoutput;
  
- eventlistener
  
 window.addEventListener('load', init);

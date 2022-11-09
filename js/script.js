@@ -1,5 +1,5 @@
 function init() {
-  document.getElementByID("entrybutton").addEventListener("click", buttonRespond);
+  document.getElementById("entrybutton").addEventListener("click", buttonRespond);
     function buttonRespond() {
       var inTxtMsg = document.getElementById("entryinput").value;
       document.getElementById("textoutput").innerHTML = inTxtMsg;

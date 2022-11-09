@@ -7,4 +7,4 @@ function init(){
       alert("Trent Coleman: " + inTxtMsg);
     }
 }
-    window.addEventListener('load', init);
+     window.addEventListener('load', init);

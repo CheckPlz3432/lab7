@@ -1,7 +1,6 @@
 function init(){
-//add your javascrip between these two lines of code
-  document.getElementByID("entrybutton").addEventListener("click", buttonRespondText);
-    function buttonRespondText() {
+  document.getElementByID("entrybutton").addEventListener("click", buttonRespond);
+    function buttonRespond() {
       var inTxtMsg = document.getElementById("entryinput").value;
       document.getElementById("textoutput").innerHTML = inTxtMsg;
       alert("Trent Coleman: " + inTxtMsg);

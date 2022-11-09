@@ -6,7 +6,7 @@ myEventFunction {
 var eb = document.getElementById('entrybutton');
 eb.addEventListener('click', myEventFunction);
  
-eb.addEventListener('click', eb){
+eb.addEventListener('click', Function()){
   console.log('I was Clicked!');
   eb.style.backgroundColor = '#C00';
   eb.innerHTML = '<strong>Goodbye</strong>';

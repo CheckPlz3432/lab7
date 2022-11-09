@@ -1,4 +1,4 @@
-function init(){
+function init() {
   document.getElementByID("entrybutton").addEventListener("click", buttonRespond);
     function buttonRespond() {
       var inTxtMsg = document.getElementById("entryinput").value;

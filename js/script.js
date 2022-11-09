@@ -15,5 +15,6 @@ eb.addEventListener('click', function()){
   var ipmsg = document.getElementById('entryinput');
   alert(ipmsg.value);
   ipmsg.value = "javascript worked";
-}}
+}
+}
 window.addEventListener('load', init);

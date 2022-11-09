@@ -3,18 +3,13 @@ function init(){
 myEventFunction {
  alert("Trent Coleman");
 }
-var eb = document.getElementById('entrybutton');
+var eb = document.getElementById("entrybutton");
  
-eb.addEventListener('click', myEventFunction);
+eb.addEventListener("click", function()){
  
-eb.addEventListener('click', function()){
-  console.log('I was Clicked!');
-  eb.style.backgroundColor = '#C00';
-  eb.innerHTML = '<strong>Goodbye</strong>';
- 
-  var ipmsg = document.getElementById('entryinput');
-  alert(ipmsg.value);
+  var ipmsg = document.getElementById("entryinput");
+  alert("Trent Coleman:" + ipmsg.value);
   ipmsg.value = "javascript worked";
 }
 }
-window.addEventListener('load', init);
+window.addEventListener("load", init);

@@ -6,10 +6,11 @@ myEventFunction {
 var eb = document.getElementById('entrybutton');
 eb.addEventListener('click', myEventFunction);
  
-eb.addEventListener('click', Function(){
+eb.addEventListener('click', eb){
   console.log('I was Clicked!');
   eb.style.backgroundColor = '#C00';
   eb.innerHTML = '<strong>Goodbye</strong>';
+ 
   var ipmsg = document.getElementById('entryinput');
   alert(ipmsg.value);
   ipmsg.value = "javascript worked";

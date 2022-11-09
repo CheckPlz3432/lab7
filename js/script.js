@@ -1,11 +1,10 @@
 function init(){
 //add your javascrip between these two lines of code
-  var button = document.getElementByID("entrybutton").value;
   document.getElementByID("entrybutton").addEventListener("click", buttonRespondText);
     function buttonRespondText() {
-      var inTextMsg = document.getElementById("entryinput").value;
-      document.getElementById("textoutput").innerHTML = inTextMsg;
-      alert("Trent Coleman: " + inTextMsg);
+      var inTxtMsg = document.getElementById("entryinput").value;
+      document.getElementById("textoutput").innerHTML = inTxtMsg;
+      alert("Trent Coleman: " + inTxtMsg);
     }
 }
-window.addEventListener("load", init);
+    window.addEventListener('load', init);

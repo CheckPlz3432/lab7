@@ -11,7 +11,9 @@ d4.addEventListener('click', Function(){
   d4.style.backgroundColor = '#C00';
   d4.innerHTML = '<strong>Goodbye</strong>';
  
-  alert("Trent Coleman Hello this is a test");
+  var ipmsg = document.getElementById('entryinput');
+  alert(ipmsg.value);
+  ipmsg.value = "javascript worked";
   
 }
 window.addEventListener('load', init);

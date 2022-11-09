@@ -1,19 +1,17 @@
 function init(){
 //add your javascrip between these two lines of code
 myEventFunction {
- alert("Trent Coleman Hello this is a test");
+ alert("Trent Coleman");
 }
-var d4 = document.getElementById('div4');
-d4.addEventListener('click', myEventFunction);
+var eb = document.getElementById('entrybutton');
+eb.addEventListener('click', myEventFunction);
  
-d4.addEventListener('click', Function(){
+eb.addEventListener('click', Function(){
   console.log('I was Clicked!');
-  d4.style.backgroundColor = '#C00';
-  d4.innerHTML = '<strong>Goodbye</strong>';
- 
+  eb.style.backgroundColor = '#C00';
+  eb.innerHTML = '<strong>Goodbye</strong>';
   var ipmsg = document.getElementById('entryinput');
   alert(ipmsg.value);
   ipmsg.value = "javascript worked";
-  
 }
 window.addEventListener('load', init);
